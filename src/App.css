@@ -2,37 +2,88 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.display{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  position: relative;
+  left: 150px;
+  /* display: flex;
+  flex-wrap: wrap;
+  
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100px; */
+ 
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.data1{
+
+ text-align: center;
+ padding:15px;
+ justify-content: center;
+ 
+
+
+}
+.center{
+  text-align: center;
+}
+.center1{
+  text-align: center;
+  justify-content: center;
+  color: yellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.shop{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-size: 30px;
+  
+}
+
+.shop1{
+  text-align: center;
+  position: relative;
+ top: 30px;
+ font-size: 60px;
+ outline: none;
+ border: none;
+}
+
+.shopcolor{
+  height: 200px;
+  width: screen;
+  background-color: rgba(31, 30, 30, 0.897);
+
+
+}
+
+
+.navbor{
+  display: grid;
+  grid-template-columns: 10% 5% 5% 5% 10%;
+  height: 40px;
+  width: screen;
+  position: relative;
+  left: 170px;
+}
+
+.cardcount{
+  text-align: right;
+  position: relative;
+  bottom: 60px;
+  right: 200px;
+  
+  
+}
+
+.option{
+  position: relative;
+  bottom: 5px;
+  outline: none;
+  border: none;
 }
